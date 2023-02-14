@@ -8,7 +8,21 @@ module.exports = {
     "./nuxt.config.{js,ts}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      colors:{
+        primary: {
+          1: '#FFC107',
+          2: '#FFD037'
+        },
+        neutral: '#808080'
+      },
+      boxShadow:{
+        'default': '0px 10px 30px rgba(128, 128, 128, 0.25)'
+      },
+      fontFamily: {
+        nunitoSans : ["Nunito Sans", 'sans-serif']
+      }
+    },
   },
   plugins: [],
 }
