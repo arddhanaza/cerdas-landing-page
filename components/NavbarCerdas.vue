@@ -2,10 +2,10 @@
 import CerdasLogo from './CerdasLogo.vue';
 
 <template>
-    <nav class="container mx-auto max-w-screen-lg flex justify-center">
+    <nav class="container mx-auto max-w-screen-lg flex justify-center py-4 px-4 md:py-0">
         <CerdasLogo class="" />
         <div class="w-full">
-            <ul class="flex justify-center gap-12">
+            <ul class="hidden md:flex justify-center md:gap-12">
                 <li><NuxtLink :to="`#`" class="nav-item">Beranda</NuxtLink></li>
                 <li><NuxtLink :to="`#pencapaian`" class="nav-item">Pencapaian</NuxtLink></li>
                 <li><NuxtLink  :to="`#terstimoni`" class="nav-item">Testimoni</NuxtLink></li>

@@ -1,9 +1,9 @@
 <template>
-    <footer class="bg-primary-2">
+    <footer class="px-4 bg-primary-2">
         <div class="conatiner mx-auto max-w-screen-lg">
             <!-- img -->
-            <div class="flex">
-                <div class="w-full md:w-1/2 py-4 px-4">
+            <div class="flex flex-col md:flex-row">
+                <div class="w-1/2 py-4 px-4">
                     <img src="~/assets/img/footerImg.svg" alt=""/>
                 </div>
                 <div class="flex flex-col self-center w-full md:w-1/2 px-4 py-4 gap-8">
@@ -18,12 +18,12 @@
                 </div>
             </div>
             <!-- footnote -->
-            <div class="flex justify-between text-white items-center py-4">
+            <div class="flex flex-col md:flex-row justify-between text-white md:items-center py-4 gap-8">
                 <p class="text-sm">  
                     &copy; 2018 Copyright Isolusindonesia
                 </p>
                 <div class="">
-                    <ul class="flex justify-center gap-8">
+                    <ul class="flex flex-col md:flex-row justify-center gap-4 md:gap-8">
                         <li><NuxtLink :to="`#`" class="nav-item">Beranda</NuxtLink></li>
                         <li><NuxtLink :to="`#pencapaian`" class="nav-item">Pencapaian</NuxtLink></li>
                         <li><NuxtLink  :to="`#terstimoni`" class="nav-item">Testimoni</NuxtLink></li>

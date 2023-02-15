@@ -5,6 +5,6 @@
 
 @layer base {
     html {
-        @apply font-nunitoSans text-black/80
+        @apply font-nunitoSans text-black/80 scroll-smooth
     }
 }
